@@ -3,7 +3,7 @@ import sqlalchemy
 import pandas as pd
 from sqlalchemy import select, inspect
 
-class ModelMixin:
+class EasyAlchemy:
     def __init__(self) -> None:
         self.engine = self.create_engine()
 
